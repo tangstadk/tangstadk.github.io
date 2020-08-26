@@ -545,12 +545,14 @@ section {
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
+    object-fit: contain;
   }
 }
 
 @media (max-width: 575px) {
   .clients img {
     width: 30%;
+    object-fit: contain;
   }
 }
 

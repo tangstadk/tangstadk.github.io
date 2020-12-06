@@ -418,7 +418,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width:50%;
+    object-fit: contain;
   }
 }
 
@@ -436,13 +437,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 90%;
+    object-fit: contain;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+    object-fit: contain;
   }
 }
 
@@ -542,12 +545,14 @@ section {
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
+    object-fit: contain;
   }
 }
 
 @media (max-width: 575px) {
   .clients img {
     width: 30%;
+    object-fit: contain;
   }
 }
 
